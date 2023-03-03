@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URL Input and History</title>
+</head>
+<body>
+  <label for="url-input">Enter URL:</label>
+  <input type="text" id="url-input"><br>
+  <button onclick="clearUrl()">Clear URL Input</button>
+  <button onclick="loadUrl()">Load URL</button>
+  <button onclick="showHistory()">History</button>
+  <br>
+  <br>
+  <table border="1px" id="history">
+    <thead>
+      <tr>
+        <th>Visited Link</th>
+        <th>Date and Time of Visit</th>
+        <th>Browser Used</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+<script src="index.js"></script>
+</body>
+</html>
