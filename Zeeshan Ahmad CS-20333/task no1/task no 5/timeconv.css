@@ -1,0 +1,11 @@
+$brandColor: darkorchid;
+
+body {
+  font-family: system-ui;
+  background: linear-gradient(to bottom, $brandColor, darken($brandColor, 15%));
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
